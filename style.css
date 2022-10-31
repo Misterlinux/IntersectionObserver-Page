@@ -1,0 +1,93 @@
+
+.splash-container {
+    background: url("https://bit.ly/3apNVlR");
+    height: 70%;
+    position: fixed !important;
+}
+
+.splash {
+    width: 55%;
+    margin: auto;
+    position: absolute;
+    top: 150px;
+    left: 0; 
+    right: 0;
+}
+
+/*------------------*/
+
+.capsule{
+    position: absolute;
+    top: 65%;
+    background-color: aliceblue; 
+}
+
+.imagi{
+    transition: 0.5s;
+}
+
+.imagi div{
+    margin-top: 5em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 5em;
+}
+
+.imagi .texto p{
+    width: 70%;
+}
+
+
+.imagi img{
+    width: 85%;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.4);
+}
+
+/*-----------------*/
+
+.footer {
+    color: orange;
+    font-size: 70%;
+
+    display: flex;
+    position: absolute;
+    align-items: center;
+
+}
+
+.footer .sotto{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 5em;
+}
+
+/*to handle elements as rows you dont always need to set flex-direction */
+.footer .sotto li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listed{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+
+.listed span{
+    margin: 0em 0.4em
+}
+
+.listed span:hover{
+    color: orange;
+}
+
+a{
+    color: lightsalmon;
+}
+
+
